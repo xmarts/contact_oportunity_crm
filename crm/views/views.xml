@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+    <record id="button_create_customer" model="ir.ui.view">
+      <field name="name">button.create.customer</field>
+      <field name="model">crm.lead</field>
+      <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='tag_ids']" position="after">
+          <group>
+            <group>
+              <button name="create_customer" string="Crear cliente" type="object" class="oe_highlight"/>
+            </group>
+          </group>  
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>
