@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "crm",
+    'name': "crm_mod",
 
     'summary': """
          Module to create a contact""",
